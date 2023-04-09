@@ -39,7 +39,7 @@ output_id = 2
 off_when_shutdown = True
 restart_klipper_when_powered = True
 initial_state = off
-off_when_shutdown_delay = 0
+off_when_shutdown_delay = 0.1
 
 [power Enclosure Light]
 on_when_job_queued = True
