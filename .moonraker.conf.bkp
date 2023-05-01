@@ -37,9 +37,9 @@ type = tplink_smartplug
 address = 192.168.1.113
 output_id = 2
 off_when_shutdown = True
-restart_klipper_when_powered = True
+restart_klipper_when_powered = true
 initial_state = on
-off_when_shutdown_delay = 0.1
+off_when_shutdown_delay = 0
 
 [power Enclosure Light]
 on_when_job_queued = True
