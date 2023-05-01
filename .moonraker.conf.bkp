@@ -34,11 +34,11 @@ cors_domains =
 [power Printer]
 on_when_job_queued = True
 type = tplink_smartplug
-address = 192.168.5.113
+address = 192.168.1.113
 output_id = 2
 off_when_shutdown = True
 restart_klipper_when_powered = True
-initial_state = off
+initial_state = on
 off_when_shutdown_delay = 0.1
 
 [power Enclosure Light]
